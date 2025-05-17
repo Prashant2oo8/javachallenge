@@ -13,7 +13,11 @@ public class stringsAreImmutable {
         } else{
             System.out.println("name and userName are not same.");
         }
-// operator (==) checks the references
+        // operator (==) checks the references in non-premitive datadypes
+        // if you want to check the actual values you can use (equals()) method.
+        if (name.equals(userName)) {
+            System.out.println("value of name and userName is same");
+        }
     }
     
 }
